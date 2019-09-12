@@ -1,0 +1,1 @@
+currently the database is a locally hosted database where I am storing the keywords and categories to allow me to store entries and then use them for the 'suggested' categories.
