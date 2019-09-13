@@ -4,15 +4,19 @@
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
-    <form action="/action_page.php" method="GET">
+    <form action="/action_page.php" method="GET" onsubmit="">
       Enter Keyword: <input type="text" name="keyword" /><br />
+      <script>
+        if ($suggested != "") {
+        }
+      </script>
       <br />
       Category:<br />
       <br />
       <select name="categories">
-        <option disabled selected value> -- Suggested -- </option>
-        <option disabled selected value> -- Other Options -- </option>
-        <option value="apple">apple</option>
+        <optgroup value="Suggested">Suggested</optgroup>
+        <optgroup value="Other">Other Options</optgroup>
+        <option value="apple">Apple</option>
         <option value="Pear">Pear</option>
         <option value="Orange">Orange</option>
         <option value="Banana">Banana</option>
